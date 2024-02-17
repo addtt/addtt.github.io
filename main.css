@@ -1,20 +1,28 @@
 body {
-	color: rgba(0, 0, 0, 0.8);
-	font-family: Avenir,Helvetica Neue Light,Noto Sans,Verdana,Arial,sans-serif;
-	font-size: 15px;
+	color: rgba(0, 0, 0, 0.7);
+	font-family: Avenir,Helvetica Neue,Noto Sans,Open Sans,Verdana,Arial,sans-serif;
+	font-size: 15.5px;
 	line-height: 1.5em;
 	margin: 0;
 }
-a {
-	color: rgba(0, 0, 0, 0.8);
+/*a {
+	color: rgba(0, 0, 0, 0.7);
 	text-decoration: underline;
 }
 a:hover {
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(0, 0, 0, 0.55);
+	text-decoration: none;
+}*/
+a {
+	color: rgba(0, 0, 0, 0.55);
 	text-decoration: none;
 }
+a:hover {
+	color: rgba(0, 0, 0, 0.55);
+	text-decoration: underline;
+}
 h1 {
-	font-size: 24px;
+	font-size: 28px;
 	margin-bottom: 20px;
 }
 .mono {
@@ -50,8 +58,6 @@ ul#links {
 ul#links li {
 	font-family: Avenir,Helvetica Neue Light,Noto Sans,Verdana,Arial,sans-serif;
 	display: inline;
-	/*margin-right: 10px;
-	margin-left: 10px;*/
 	text-align: center;
 }
 ul#links li a {
